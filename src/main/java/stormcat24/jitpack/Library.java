@@ -11,5 +11,6 @@ public final class Library {
 
     public static void bar() {
         System.out.println("foo");
+    }
 
 }
