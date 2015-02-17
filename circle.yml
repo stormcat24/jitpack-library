@@ -1,5 +1,5 @@
 machine:
   pre:
     - cat /etc/ssh/ssh_config
-    - sed 's/GSSAPIAuthentication yes/GSSAPIAuthentication no/g' /etc/ssh/ssh_config
+    - sudo sed -i 's/GSSAPIAuthentication yes/GSSAPIAuthentication no/g' /etc/ssh/ssh_config
     - cat /etc/ssh/ssh_config
