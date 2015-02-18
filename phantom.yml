@@ -2,3 +2,4 @@ language: java_oraclejdk:7
 cache: ~/.gradle
 commands:
   - ./gradlew test
+  - exit 1
