@@ -15,7 +15,7 @@ public class LibraryTest {
 
     @Test
     public void testBar() {
-        Assert.assertEquals(Library.bar(), "bar");
+        Assert.assertEquals(Library.bar(), "fail");
     }
 
 }
