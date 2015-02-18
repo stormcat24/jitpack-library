@@ -5,12 +5,14 @@ package stormcat24.jitpack;
  */
 public final class Library {
 
-    public static void foo() {
+    public static String foo() {
         System.out.println("foo");
+        return "foo";
     }
 
-    public static void bar() {
+    public static String bar() {
         System.out.println("foo");
+        return "bar";
     }
 
 }
